@@ -35,23 +35,22 @@ This project demonstrates CRUD operations, REST API integration, database connec
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```
 PATIENT_REGISTRATION_SYSTEM
 │
 ├── README.md
 │
-├── backend
+├── PRSbackend
 │   ├── src
 │   │   └── main
 │   │       └── java
 │   ├── pom.xml
 │   └── application.properties
 │
-└── frontend
+└── PRSfrontend
     ├── index.html
     ├── style.css
     └── script.js
-
-
-
+```
