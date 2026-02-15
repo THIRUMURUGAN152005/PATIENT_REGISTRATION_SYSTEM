@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <script type="text/javascript" src="myscript2.js"></script>
+
+    <style>
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(135deg, #eef2f7, #dbeafe);
+        padding: 50px;
+        margin: 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    th {
+        background: linear-gradient(90deg, #2563eb, #1e40af);
+        color: white;
+        padding: 14px;
+        text-align: left;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    td {
+        padding: 12px 14px;
+        border-bottom: 1px solid #e5e7eb;
+        color: #374151;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f3f6fb;
+    }
+
+    tr:hover {
+        background-color: #e0ecff;
+        transition: 0.3s ease;
+    }
+</style>
+
+  </head>
+  <body>
+      <h2 align="center"> ENROLLED PATIENTS</h2>
+      <table align="center" border="1">
+        <tr align="center" style="background-color: aqua;">
+          <th width="100">Patient Id</th>
+          <th width="150">Patient Name</th>
+          <th width="150">Patient Age</th>
+          <th width="150">Gender</th>
+          <th width="100">Contact</th>
+          <th width="100">Symptoms</th>
+          <th width="100">Address</th>
+        </tr>
+        <tbody align="center" id="patientstable"></tbody>
+      </table>
+      <script type="text/javascript"> 
+        window.onload=function(){
+           showpatients();
+        }
+      </script>
+  </body>
+</html>
