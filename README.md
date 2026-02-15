@@ -37,3 +37,18 @@ This project demonstrates CRUD operations, REST API integration, database connec
 
 ## 📂 Project Structure
 
+PATIENT_REGISTRATION_SYSTEM
+│
+├── README.md  
+│
+├── backend
+│   ├── src
+│   ├── pom.xml
+│   └── application.properties
+│
+└── frontend
+    ├── index.html
+    ├── style.css
+    └── script.js
+
+
